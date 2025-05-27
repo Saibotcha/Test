@@ -2,7 +2,7 @@
 
 def read_file(file_path):
     try:
-        with open(file_path, 'r') as file:
+        with open(file_path, 'f') as file:
             contents = file.read()
             print("File contents:")
             print(contents)
