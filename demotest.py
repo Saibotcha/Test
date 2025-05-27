@@ -6,6 +6,7 @@ def read_file(file_path):
             contents = file.read()
             print("File contents:")
             print(contents)
+            print("asdfghjkl")
     except FileNotFoundError:
         print(f"The file {file_path} was not found.")
     except Exception as e:
